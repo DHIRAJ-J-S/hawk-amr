@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+dist/
+build/
+
+# Source material reviewed for this package; keep it out of public commits.
+/HAWK.pptx
+/HSC_HAWK_3DegreesOfFreedom (1).pptx
+/Alexander the STEP.STEP

@@ -1,0 +1,12 @@
+{
+  "inventory": [
+    {"sku": "BOX-100", "location": "A-01-02", "quantity": 12, "source": "qr"},
+    {"sku": "PART-204", "location": "A-01-02", "quantity": 4, "source": "rfid"},
+    {"sku": "KIT-310", "location": "B-03-01", "quantity": 7, "source": "qr"}
+  ],
+  "tasks": [
+    {"id": "scan-a-01", "operation": "inventory_scan", "attachment": "drone", "location": "A-01-02"},
+    {"id": "move-pallet-01", "operation": "pallet_move", "attachment": "forklift", "load_kg": 45.0}
+  ],
+  "simulated_limits": {"max_load_kg": 100.0}
+}
