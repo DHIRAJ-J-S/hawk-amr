@@ -22,7 +22,7 @@ The supplied STEP file, `Alexander the STEP.STEP`, is not the HAWK AMR CAD. Its 
 Clone the repository and enter its directory:
 
 ```bash
-git clone https://github.com/<your-account>/hawk-amr.git
+git clone https://github.com/DHIRAJ-J-S/hawk-amr.git
 cd hawk-amr
 ```
 
@@ -54,7 +54,7 @@ The implementation intentionally models a concept. Navigation, localization, obs
 
 ## Publishing
 
-Create an empty GitHub or GitLab repository, then replace the placeholder clone URL above with its URL. This workspace does not have a configured remote, so no public repository link exists yet. Before publishing, review the team identity and contact details, confirm the intended license with all contributors, and add only CAD/media you have permission to redistribute.
+The public GitHub repository is [github.com/DHIRAJ-J-S/hawk-amr](https://github.com/DHIRAJ-J-S/hawk-amr). Before adding team contact details, CAD, or presentation media, confirm the contributors' consent and redistribution rights.
 
 ## Project source
 
