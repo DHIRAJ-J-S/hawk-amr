@@ -10,7 +10,6 @@ HAWK is a concept for a modular autonomous mobile robot for warehouse automation
 - Architecture and safety boundaries in `docs/ARCHITECTURE.md`.
 - An MIT license for the new software and documentation in this repository.
 
-The supplied STEP file, `Alexander the STEP.STEP`, is not the HAWK AMR CAD. Its component names reference a CUAV X7PLUS and SiYi A8, among other drone parts. It is not included. Obtain the correct HAWK CAD and confirm redistribution rights before adding any CAD or presentation media. The source decks include third-party images and references whose licenses are not established here.
 
 ## Requirements
 
