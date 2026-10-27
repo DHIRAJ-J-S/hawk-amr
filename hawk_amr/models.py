@@ -22,6 +22,8 @@ class Task:
     attachment: Attachment
     location: str | None = None
     load_kg: float | None = None
+    pickup_station: str | None = None
+    dropoff_station: str | None = None
 
 
 @dataclass(frozen=True)
@@ -31,3 +33,5 @@ class TaskResult:
     message: str
     records: tuple[InventoryRecord, ...] = ()
     load_kg: float | None = None
+    route: tuple[tuple[int, int], ...] = ()
+    distance_cells: int = 0
